@@ -1,0 +1,542 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    border: 1px solid black;
+    background-color: rgb(195, 236, 132);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 99vw;
+}
+
+.logo_class{
+    padding: 30px;
+    font-size: 49px;
+}
+
+.topicos_class{
+    padding: 20px;
+    font-size: 27px;
+}
+
+.segunda_sessao{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.texturas_article{
+    display: flex;
+    flex-direction: row;
+}
+
+#Texturas{
+    width: 25vw;
+    padding: 10px;
+   
+}
+
+.texturas_titulo{
+    padding: 20px;
+    color: rgb(8, 90, 8);
+    font-size: 45px;
+}
+
+.texturas_paragrafo{
+    margin-top: 8vh;
+    padding: 20px;
+    width: 20vw;
+    text-align: justify;
+    font-size: 30px;
+}
+
+#Seca{
+    width: 25vw;
+    height: 40vh;
+    padding: 10px;  
+}
+
+.seca_titulo{
+    padding: 20px;
+    font-size: 40px;
+}
+
+.seca_paragrafo{
+    margin-top: 8vh;
+    padding: 20px;
+    width: 20vw;
+    text-align: justify;
+    font-size: 30px;
+}
+
+.oleosa_article{
+    display: flex;
+    flex-direction: row;
+}
+
+#oleosa{
+    width: 25vw;
+    padding: 10px; 
+}
+
+.oleosa_titulo{
+    padding: 20px; 
+    font-size: 40px;
+}
+
+.oleosa_paragrafo{
+    margin-top: 8vh;
+    padding: 20px;
+    width: 20vw;
+    text-align: justify;
+    font-size: 30px;
+}
+
+.mista_titulo{
+    padding: 20px; 
+    font-size: 40px; 
+}
+
+#mista{
+    width: 25vw;
+    height: 37vh;
+    padding: 10px;  
+}
+
+.mista_paragrafo{
+    margin-top: 8vh;
+    padding: 20px;
+    width: 20vw;
+    text-align: justify;
+    font-size: 30px;
+}
+
+.normal_article{
+    display: flex;
+    flex-direction: row;
+}
+
+#normal{
+    width: 25vw;
+    padding: 10px; 
+}
+
+.normal_titulo{
+    padding: 20px;
+    font-size: 40px; 
+}
+
+.normal_paragrafo{
+    margin-top: 8vh;
+    padding: 20px;
+    width: 20vw;
+    text-align: justify;
+    font-size: 30px;
+}
+
+.sessao_manha{
+    width: 99vw;
+    height: 80vh;
+    background-image: linear-gradient(to top, rgb(195, 236, 132), rgb(195, 236, 132));
+    border-radius: 1px;
+    display: flex;
+}
+
+
+#massageador{
+    width: 20vw;
+    padding: 35px; 
+}
+
+.massagem_paragrafo{
+    padding: 25px;
+    width: 18vw;
+    text-align: justify;
+    font-size: 27px;
+}
+
+.massagem_titulo{
+    padding: 25px;
+    font-size: 27px;
+}
+
+.manha_article{
+    display: flex;
+    flex-direction: row;
+}
+
+#sabonete1{
+    width: 17vw;
+    padding: 35px; 
+}
+
+.sabonete1_paragrafo{
+    padding: 25px;
+    width: 18vw;
+    text-align: justify;
+    font-size: 27px;
+}
+
+.sabonete1_titulo{
+    padding: 25px;
+    font-size: 27px;
+}
+
+#esfoliante{
+    width: 17vw;
+    padding: 35px; 
+}
+
+.esfoliante_paragrafo{
+    padding: 25px;
+    width: 18vw;
+    text-align: justify;
+    font-size: 27px;
+}
+
+.esfoliante_titulo{
+    padding: 25px;
+    font-size: 27px;
+}
+
+#hidratantecorp{
+    width: 17vw;
+    padding: 35px; 
+}
+
+.hidratantecorp_paragrafo{
+    padding: 25px;
+    width: 18vw;
+    text-align: justify;
+    font-size: 27px;
+}
+
+.hidratantecorp_titulo{
+    padding: 25px;
+    font-size: 27px;
+    font-size: 27px;
+}
+
+#protetor1{
+    width: 17vw;
+    padding: 35px; 
+}
+
+.protetor1_paragrafo{
+    padding: 25px;
+    width: 18vw;
+    text-align: justify;
+    font-size: 27px;
+    
+}
+
+.protetor1_titulo{
+    padding: 25px;
+    font-size: 27px;
+    
+}
+
+.sessao_noite{
+    width: 99vw;
+    height: 80vh;
+    display: flex;
+}
+
+#sabonete2{
+    width: 18vw;
+    padding: 35px; 
+}
+
+.sabonete2_paragrafo{
+    padding: 25px;
+    width: 18vw;
+    text-align: justify;
+    font-size: 27px;
+    
+}
+
+.sabonete2_titulo{
+    padding: 25px;
+    font-size: 27px;
+}
+
+#tonico{
+    width: 16vw;
+    padding: 35px; 
+}
+
+.tonico_paragrafo{
+    padding: 25px;
+    width: 18vw;
+    text-align: justify;
+    font-size: 27px;
+}
+
+.tonico_titulo{
+    padding: 25px;
+    font-size: 27px;
+}
+
+#mascara{
+    width: 18vw;
+    padding: 35px; 
+}
+
+.mascara_paragrafo{
+    padding: 25px;
+    width: 18vw;
+    text-align: justify;
+    font-size: 27px;
+}
+
+.mascara_titulo{
+    padding: 25px;
+    font-size: 27px;
+}
+
+#hidratanterosto{
+    width: 18vw;
+    padding: 35px; 
+}
+
+.hidratanterosto_paragrafo{
+    padding: 25px;
+    width: 18vw;
+    text-align: justify;
+    font-size: 27px;
+}
+
+.hidratanterosto_titulo{
+    padding: 25px;
+    font-size: 27px;
+}
+
+.noite_article{
+    display: flex;
+    flex-direction: row;
+}
+
+.sessao_antes{
+    width: 99vw;
+    height:80vh;
+    background-image: linear-gradient(to top, rgb(195, 236, 132), rgb(195, 236, 132));
+    border-radius: 1px;
+    display: flex;
+}
+
+.antes_article{
+    display: flex;
+    flex-direction: row;
+}
+
+#sabonete3{
+    width: 18vw;
+    padding: 35px; 
+}
+
+.sabonete3_paragrafo{
+    padding: 25px;
+    width: 18vw;
+    text-align: justify;
+    font-size: 27px;
+}
+
+.sabonete3_titulo{
+    padding: 25px;
+    font-size: 27px;
+}
+
+#hidratante1{
+    width: 18vw;
+    padding: 35px; 
+}
+
+.hidratante1_paragrafo{
+    padding: 25px;
+    width: 18vw;
+    text-align: justify;
+    font-size: 27px;
+}
+
+.hidratante1_titulo{
+    padding: 25px;
+    font-size: 27px;
+}
+
+#protetor2{
+    width: 18vw;
+    padding: 35px; 
+}
+
+.protetor2_paragrafo{
+    padding: 25px;
+    width: 18vw;
+    text-align: justify;
+    font-size: 27px;
+}
+
+.protetor2_titulo{
+    padding: 25px;
+    font-size: 27px;
+}
+
+#primer{
+    width: 18vw;
+    padding: 35px; 
+}
+
+.primer_paragrafo{
+    padding: 25px;
+    width: 18vw;
+    text-align: justify;
+    font-size: 27px;
+}
+
+.primer_titulo{
+    padding: 25px;
+    font-size: 27px;
+}
+
+.sessao_depois{
+    width: 99vw;
+    height: 80vh;
+    display: flex;
+}
+
+.depois_article{
+    display: flex;
+    flex-direction: row;
+}
+
+#demaquilante{
+    width: 18vw;
+    padding: 35px; 
+}
+
+.demaquilante_paragrafo{
+    padding: 25px;
+    width: 18vw;
+    text-align: justify;
+    font-size: 27px;
+}
+
+.demaquilante_titulo{
+    padding: 25px;
+    font-size: 27px;
+}
+
+#sabonete4{
+    width: 18vw;
+    padding: 35px; 
+}
+
+.sabonete4_paragrafo{
+    padding: 25px;
+    width: 18vw;
+    text-align: justify;
+    font-size: 27px;
+}
+
+.sabonete4_titulo{
+    padding: 25px;
+    font-size: 27px;
+}
+
+#cremeolhos{
+    width: 18vw;
+    padding: 35px; 
+}
+
+.cremeolhos_paragrafo{
+    padding: 25px;
+    width: 18vw;
+    text-align: justify;
+    font-size: 27px;
+}
+
+.cremeolhos_titulo{
+    padding: 25px;
+    font-size: 27px;
+}
+
+#serum{
+    width: 18vw;
+    padding: 35px; 
+}
+
+.serum_paragrafo{
+    padding: 25px;
+    width: 18vw;
+    text-align: justify;
+    font-size: 27px;
+}
+
+.serum_titulo{
+    padding: 25px;
+    font-size: 27px;
+}
+
+.titulo_manha{
+    width: 99vw;
+    height: 7vh;
+    background-image: linear-gradient(to top,  rgb(195, 236, 132),  rgb(195, 236, 132));
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+}
+
+.titulo_noite{
+    font-size: 35px;
+    padding: 20px;
+    color: rgb(8, 90, 8);
+}
+
+.titulo_antes{
+    width: 99vw;
+    height: 7vh;
+    background-image: linear-gradient(to top,  rgb(195, 236, 132),  rgb(195, 236, 132));
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+}
+
+.titulo_depois{
+    padding: 20px;
+    color: rgb(8, 90, 8);
+    font-size: 35px;
+}
+
+.sessao_primeira{
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.sessao_segunda{
+    display: flex;
+    flex-direction: row;
+}
+
+.article_primeiro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    width: 99vw;
+    height: 70vh;
+    background-color: green;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 35px; 
+}
